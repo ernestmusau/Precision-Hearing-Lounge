@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Precision Hearing Lounge</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="assets/images/logo.png" alt="Precision Hearing Lounge Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="blog.html">Hearing Health Hub</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+        </div>
+    </section>
+
+    <section class="contact-info">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Location</h3>
+                    <p>123 Soundview Lane, Nairobi, Kenya</p>
+                    <a href="#" class="btn secondary">Get Directions</a>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-phone"></i>
+                    <h3>Phone</h3>
+                    <p>(123) 456-7890</p>
+                    <a href="tel:1234567890" class="btn secondary">Call Us</a>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>info@precisionhearing.com</p>
+                    <a href="mailto:info@precisionhearing.com" class="btn secondary">Email Us</a>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Hours</h3>
+                    <p>Mon-Fri: 9 AM - 5 PM</p>
+                    <p>Sat-Sun: Closed</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="form-container">
+                <h2>Send Us a Message</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <select id="subject" name="subject">
+                            <option value="appointment">Book an Appointment</option>
+                            <option value="question">General Question</option>
+                            <option value="service">Service Inquiry</option>
+                            <option value="feedback">Feedback</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary">Send Message</button>
+                </form>
+            </div>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.808559538153!2d36.82154831533088!3d-1.2923598359806266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10d664f5b5d7%3A0x1df5e5e5c5c5c5c5!2s123%20Soundview%20Lane%2C%20Nairobi%2C%20Kenya!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section class="optional-tools">
+        <div class="container">
+            <h2>Optional Tools & Extras</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <i class="fas fa-headphones"></i>
+                    <h3>Free Online Hearing Screening</h3>
+                    <p>Take our quick online hearing test to get a preliminary assessment.</p>
+                    <a href="#" class="btn secondary">Start Test</a>
+                </div>
+                <div class="tool-card">
+                    <i class="fas fa-wallet"></i>
+                    <h3>Insurance & Financing</h3>
+                    <p>Guidance on insurance coverage and flexible payment options.</p>
+                    <a href="#" class="btn secondary">Learn More</a>
+                </div>
+                <div class="tool-card">
+                    <i class="fas fa-universal-access"></i>
+                    <h3>Accessibility Options</h3>
+                    <p>Adjust text size and enable voice navigation for better accessibility.</p>
+                    <div class="accessibility-buttons">
+                        <button id="increaseFont">A+</button>
+                        <button id="decreaseFont">A-</button>
+                        <button id="voiceNav">Voice</button>
+                    </div>
+                </div>
+                <div class="tool-card">
+                    <i class="fab fa-whatsapp"></i>
+                    <h3>WhatsApp Support</h3>
+                    <p>Chat with us conveniently via WhatsApp for quick support.</p>
+                    <a href="#" class="btn whatsapp-btn"><i class="fab fa-whatsapp"></i> Chat Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <!-- Same footer as index.html -->
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
